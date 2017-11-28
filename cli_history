@@ -1,0 +1,14 @@
+
+ 1862  mkdir site
+ 1863  cd site
+ 1864  touch index.html
+ 1865  mkdir pages
+ 1866  touch pages/about.html
+ 1867  ls pages
+ 1868  mv pages/about.html .
+ 1869  ls pages
+ 1870  cd ..
+ 1871  rm -R pages
+ 1872  cd ..
+ 1873  rm -R site
+ 1874  history | tail -n 12 > cli_history
